@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TeacherDetailAct">
+        <activity android:name=".MainActivity"><!--activity 需要在这里注册-->
+        </activity>
+        <activity android:name=".TeacherDetailAct"><!--activity 需要在这里注册-->
         </activity>
     </application>
 
