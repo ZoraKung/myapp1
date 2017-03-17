@@ -26,6 +26,5 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.teacher_listView);
 
         listView.setAdapter(teacherAdapter);
-
     }
 }
